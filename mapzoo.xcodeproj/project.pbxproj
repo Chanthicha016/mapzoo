@@ -1,507 +1,1376 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		B70F9E5B1D5663D20066738E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70F9E5A1D5663D20066738E /* AppDelegate.swift */; };
-		B70F9E5D1D5663D20066738E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70F9E5C1D5663D20066738E /* ViewController.swift */; };
-		B70F9E601D5663D20066738E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70F9E5E1D5663D20066738E /* Main.storyboard */; };
-		B70F9E621D5663D20066738E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70F9E611D5663D20066738E /* Assets.xcassets */; };
-		B70F9E651D5663D20066738E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70F9E631D5663D20066738E /* LaunchScreen.storyboard */; };
-		B70F9E701D5663D20066738E /* mapzooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70F9E6F1D5663D20066738E /* mapzooTests.swift */; };
-		B70F9E7B1D5663D30066738E /* mapzooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70F9E7A1D5663D30066738E /* mapzooUITests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B70F9E6C1D5663D20066738E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B70F9E4F1D5663D20066738E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B70F9E561D5663D20066738E;
-			remoteInfo = mapzoo;
-		};
-		B70F9E771D5663D30066738E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B70F9E4F1D5663D20066738E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B70F9E561D5663D20066738E;
-			remoteInfo = mapzoo;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		B70F9E571D5663D20066738E /* mapzoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapzoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B70F9E5A1D5663D20066738E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B70F9E5C1D5663D20066738E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B70F9E5F1D5663D20066738E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B70F9E611D5663D20066738E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B70F9E641D5663D20066738E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B70F9E661D5663D20066738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B70F9E6B1D5663D20066738E /* mapzooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapzooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B70F9E6F1D5663D20066738E /* mapzooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapzooTests.swift; sourceTree = "<group>"; };
-		B70F9E711D5663D30066738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B70F9E761D5663D30066738E /* mapzooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapzooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B70F9E7A1D5663D30066738E /* mapzooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapzooUITests.swift; sourceTree = "<group>"; };
-		B70F9E7C1D5663D30066738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		B70F9E541D5663D20066738E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B70F9E681D5663D20066738E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B70F9E731D5663D30066738E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		B70F9E4E1D5663D20066738E = {
-			isa = PBXGroup;
-			children = (
-				B70F9E591D5663D20066738E /* mapzoo */,
-				B70F9E6E1D5663D20066738E /* mapzooTests */,
-				B70F9E791D5663D30066738E /* mapzooUITests */,
-				B70F9E581D5663D20066738E /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		B70F9E581D5663D20066738E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B70F9E571D5663D20066738E /* mapzoo.app */,
-				B70F9E6B1D5663D20066738E /* mapzooTests.xctest */,
-				B70F9E761D5663D30066738E /* mapzooUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B70F9E591D5663D20066738E /* mapzoo */ = {
-			isa = PBXGroup;
-			children = (
-				B70F9E5A1D5663D20066738E /* AppDelegate.swift */,
-				B70F9E5C1D5663D20066738E /* ViewController.swift */,
-				B70F9E5E1D5663D20066738E /* Main.storyboard */,
-				B70F9E611D5663D20066738E /* Assets.xcassets */,
-				B70F9E631D5663D20066738E /* LaunchScreen.storyboard */,
-				B70F9E661D5663D20066738E /* Info.plist */,
-			);
-			path = mapzoo;
-			sourceTree = "<group>";
-		};
-		B70F9E6E1D5663D20066738E /* mapzooTests */ = {
-			isa = PBXGroup;
-			children = (
-				B70F9E6F1D5663D20066738E /* mapzooTests.swift */,
-				B70F9E711D5663D30066738E /* Info.plist */,
-			);
-			path = mapzooTests;
-			sourceTree = "<group>";
-		};
-		B70F9E791D5663D30066738E /* mapzooUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B70F9E7A1D5663D30066738E /* mapzooUITests.swift */,
-				B70F9E7C1D5663D30066738E /* Info.plist */,
-			);
-			path = mapzooUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		B70F9E561D5663D20066738E /* mapzoo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B70F9E7F1D5663D30066738E /* Build configuration list for PBXNativeTarget "mapzoo" */;
-			buildPhases = (
-				B70F9E531D5663D20066738E /* Sources */,
-				B70F9E541D5663D20066738E /* Frameworks */,
-				B70F9E551D5663D20066738E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = mapzoo;
-			productName = mapzoo;
-			productReference = B70F9E571D5663D20066738E /* mapzoo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		B70F9E6A1D5663D20066738E /* mapzooTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B70F9E821D5663D30066738E /* Build configuration list for PBXNativeTarget "mapzooTests" */;
-			buildPhases = (
-				B70F9E671D5663D20066738E /* Sources */,
-				B70F9E681D5663D20066738E /* Frameworks */,
-				B70F9E691D5663D20066738E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B70F9E6D1D5663D20066738E /* PBXTargetDependency */,
-			);
-			name = mapzooTests;
-			productName = mapzooTests;
-			productReference = B70F9E6B1D5663D20066738E /* mapzooTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B70F9E751D5663D30066738E /* mapzooUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B70F9E851D5663D30066738E /* Build configuration list for PBXNativeTarget "mapzooUITests" */;
-			buildPhases = (
-				B70F9E721D5663D30066738E /* Sources */,
-				B70F9E731D5663D30066738E /* Frameworks */,
-				B70F9E741D5663D30066738E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B70F9E781D5663D30066738E /* PBXTargetDependency */,
-			);
-			name = mapzooUITests;
-			productName = mapzooUITests;
-			productReference = B70F9E761D5663D30066738E /* mapzooUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		B70F9E4F1D5663D20066738E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = FaiFai;
-				TargetAttributes = {
-					B70F9E561D5663D20066738E = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					B70F9E6A1D5663D20066738E = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = B70F9E561D5663D20066738E;
-					};
-					B70F9E751D5663D30066738E = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = B70F9E561D5663D20066738E;
-					};
-				};
-			};
-			buildConfigurationList = B70F9E521D5663D20066738E /* Build configuration list for PBXProject "mapzoo" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = B70F9E4E1D5663D20066738E;
-			productRefGroup = B70F9E581D5663D20066738E /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				B70F9E561D5663D20066738E /* mapzoo */,
-				B70F9E6A1D5663D20066738E /* mapzooTests */,
-				B70F9E751D5663D30066738E /* mapzooUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		B70F9E551D5663D20066738E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B70F9E651D5663D20066738E /* LaunchScreen.storyboard in Resources */,
-				B70F9E621D5663D20066738E /* Assets.xcassets in Resources */,
-				B70F9E601D5663D20066738E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B70F9E691D5663D20066738E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B70F9E741D5663D30066738E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		B70F9E531D5663D20066738E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B70F9E5D1D5663D20066738E /* ViewController.swift in Sources */,
-				B70F9E5B1D5663D20066738E /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B70F9E671D5663D20066738E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B70F9E701D5663D20066738E /* mapzooTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B70F9E721D5663D30066738E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B70F9E7B1D5663D30066738E /* mapzooUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B70F9E6D1D5663D20066738E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B70F9E561D5663D20066738E /* mapzoo */;
-			targetProxy = B70F9E6C1D5663D20066738E /* PBXContainerItemProxy */;
-		};
-		B70F9E781D5663D30066738E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B70F9E561D5663D20066738E /* mapzoo */;
-			targetProxy = B70F9E771D5663D30066738E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B70F9E5E1D5663D20066738E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B70F9E5F1D5663D20066738E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B70F9E631D5663D20066738E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B70F9E641D5663D20066738E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		B70F9E7D1D5663D30066738E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B70F9E7E1D5663D30066738E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B70F9E801D5663D30066738E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = mapzoo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = camt.mapzoo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		B70F9E811D5663D30066738E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = mapzoo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = camt.mapzoo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B70F9E831D5663D30066738E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = mapzooTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = camt.mapzooTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapzoo.app/mapzoo";
-			};
-			name = Debug;
-		};
-		B70F9E841D5663D30066738E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = mapzooTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = camt.mapzooTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapzoo.app/mapzoo";
-			};
-			name = Release;
-		};
-		B70F9E861D5663D30066738E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = mapzooUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = camt.mapzooUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = mapzoo;
-			};
-			name = Debug;
-		};
-		B70F9E871D5663D30066738E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = mapzooUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = camt.mapzooUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = mapzoo;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		B70F9E521D5663D20066738E /* Build configuration list for PBXProject "mapzoo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B70F9E7D1D5663D30066738E /* Debug */,
-				B70F9E7E1D5663D30066738E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B70F9E7F1D5663D30066738E /* Build configuration list for PBXNativeTarget "mapzoo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B70F9E801D5663D30066738E /* Debug */,
-				B70F9E811D5663D30066738E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		B70F9E821D5663D30066738E /* Build configuration list for PBXNativeTarget "mapzooTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B70F9E831D5663D30066738E /* Debug */,
-				B70F9E841D5663D30066738E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		B70F9E851D5663D30066738E /* Build configuration list for PBXNativeTarget "mapzooUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B70F9E861D5663D30066738E /* Debug */,
-				B70F9E871D5663D30066738E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = B70F9E4F1D5663D20066738E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>18926D67755F5EA396738B0A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-mapzooUITests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>190D8B7D4B763D0BA4E10BF4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-mapzooUITests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-mapzooUITests/Pods-mapzooUITests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B2AA25064955FF3377B0A23</key>
+		<dict>
+			<key>fileRef</key>
+			<string>18926D67755F5EA396738B0A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3E408F5B215CE64956D8B1BB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-mapzooTests/Pods-mapzooTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>47059743A7C397BBC2EFB184</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FC05EDE38BACA2CE252FCDC1</string>
+				<string>647D9012E7CB4AF519812A78</string>
+				<string>AE6797A4BCC37C3A974DEB4B</string>
+				<string>82BFB1CED215F2AECAF2148A</string>
+				<string>190D8B7D4B763D0BA4E10BF4</string>
+				<string>E209536DDBF19ACBAA486ADC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5B9BFA4AD98B888734DB8B5E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-mapzooTests/Pods-mapzooTests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>5E8D252188661F5B90642311</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E5E62FC5E2E0B0E9E79D46E1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>647D9012E7CB4AF519812A78</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-mapzoo.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-mapzoo/Pods-mapzoo.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>82BFB1CED215F2AECAF2148A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-mapzooTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-mapzooTests/Pods-mapzooTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>90D8DC440D0967ACF73C9EDA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-mapzooUITests/Pods-mapzooUITests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>AE6797A4BCC37C3A974DEB4B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-mapzooTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-mapzooTests/Pods-mapzooTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2D78AAF2EBD9A409E766AE9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>B70F9E4E1D5663D20066738E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B70F9E591D5663D20066738E</string>
+				<string>B70F9E6E1D5663D20066738E</string>
+				<string>B70F9E791D5663D30066738E</string>
+				<string>B70F9E581D5663D20066738E</string>
+				<string>47059743A7C397BBC2EFB184</string>
+				<string>C478ADA68D51C5101779E385</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E4F1D5663D20066738E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>FaiFai</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>B70F9E561D5663D20066738E</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+					</dict>
+					<key>B70F9E6A1D5663D20066738E</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>B70F9E561D5663D20066738E</string>
+					</dict>
+					<key>B70F9E751D5663D30066738E</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>B70F9E561D5663D20066738E</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>B70F9E521D5663D20066738E</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>B70F9E4E1D5663D20066738E</string>
+			<key>productRefGroup</key>
+			<string>B70F9E581D5663D20066738E</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>B70F9E561D5663D20066738E</string>
+				<string>B70F9E6A1D5663D20066738E</string>
+				<string>B70F9E751D5663D30066738E</string>
+			</array>
+		</dict>
+		<key>B70F9E521D5663D20066738E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B70F9E7D1D5663D30066738E</string>
+				<string>B70F9E7E1D5663D30066738E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B70F9E531D5663D20066738E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B70F9E5D1D5663D20066738E</string>
+				<string>B70F9E5B1D5663D20066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B70F9E541D5663D20066738E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5E8D252188661F5B90642311</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B70F9E551D5663D20066738E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B70F9E651D5663D20066738E</string>
+				<string>B70F9E621D5663D20066738E</string>
+				<string>B70F9E601D5663D20066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B70F9E561D5663D20066738E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>B70F9E7F1D5663D30066738E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C7D1EB291B5E8C20EBC79417</string>
+				<string>B70F9E531D5663D20066738E</string>
+				<string>B70F9E541D5663D20066738E</string>
+				<string>B70F9E551D5663D20066738E</string>
+				<string>E58E6F345E95ABFB61C88784</string>
+				<string>BA530F68ACBA41F1321C63E2</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>mapzoo</string>
+			<key>productName</key>
+			<string>mapzoo</string>
+			<key>productReference</key>
+			<string>B70F9E571D5663D20066738E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>B70F9E571D5663D20066738E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>mapzoo.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B70F9E581D5663D20066738E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B70F9E571D5663D20066738E</string>
+				<string>B70F9E6B1D5663D20066738E</string>
+				<string>B70F9E761D5663D30066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E591D5663D20066738E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B70F9E5A1D5663D20066738E</string>
+				<string>B70F9E5C1D5663D20066738E</string>
+				<string>B70F9E5E1D5663D20066738E</string>
+				<string>B70F9E611D5663D20066738E</string>
+				<string>B70F9E631D5663D20066738E</string>
+				<string>B70F9E661D5663D20066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>mapzoo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E5A1D5663D20066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E5B1D5663D20066738E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B70F9E5A1D5663D20066738E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B70F9E5C1D5663D20066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E5D1D5663D20066738E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B70F9E5C1D5663D20066738E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B70F9E5E1D5663D20066738E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B70F9E5F1D5663D20066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E5F1D5663D20066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E601D5663D20066738E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B70F9E5E1D5663D20066738E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B70F9E611D5663D20066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E621D5663D20066738E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B70F9E611D5663D20066738E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B70F9E631D5663D20066738E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B70F9E641D5663D20066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E641D5663D20066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E651D5663D20066738E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B70F9E631D5663D20066738E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B70F9E661D5663D20066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E671D5663D20066738E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B70F9E701D5663D20066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B70F9E681D5663D20066738E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F7E286E83D7B12A60E518B3F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B70F9E691D5663D20066738E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B70F9E6A1D5663D20066738E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>B70F9E821D5663D30066738E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B2D78AAF2EBD9A409E766AE9</string>
+				<string>B70F9E671D5663D20066738E</string>
+				<string>B70F9E681D5663D20066738E</string>
+				<string>B70F9E691D5663D20066738E</string>
+				<string>5B9BFA4AD98B888734DB8B5E</string>
+				<string>3E408F5B215CE64956D8B1BB</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>B70F9E6D1D5663D20066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>mapzooTests</string>
+			<key>productName</key>
+			<string>mapzooTests</string>
+			<key>productReference</key>
+			<string>B70F9E6B1D5663D20066738E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>B70F9E6B1D5663D20066738E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>mapzooTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B70F9E6C1D5663D20066738E</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>B70F9E4F1D5663D20066738E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>B70F9E561D5663D20066738E</string>
+			<key>remoteInfo</key>
+			<string>mapzoo</string>
+		</dict>
+		<key>B70F9E6D1D5663D20066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>B70F9E561D5663D20066738E</string>
+			<key>targetProxy</key>
+			<string>B70F9E6C1D5663D20066738E</string>
+		</dict>
+		<key>B70F9E6E1D5663D20066738E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B70F9E6F1D5663D20066738E</string>
+				<string>B70F9E711D5663D30066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>mapzooTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E6F1D5663D20066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>mapzooTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E701D5663D20066738E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B70F9E6F1D5663D20066738E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B70F9E711D5663D30066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E721D5663D30066738E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B70F9E7B1D5663D30066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B70F9E731D5663D30066738E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2B2AA25064955FF3377B0A23</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B70F9E741D5663D30066738E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B70F9E751D5663D30066738E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>B70F9E851D5663D30066738E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>CD280B62DE8B6EFEF656D734</string>
+				<string>B70F9E721D5663D30066738E</string>
+				<string>B70F9E731D5663D30066738E</string>
+				<string>B70F9E741D5663D30066738E</string>
+				<string>90D8DC440D0967ACF73C9EDA</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>B70F9E781D5663D30066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>mapzooUITests</string>
+			<key>productName</key>
+			<string>mapzooUITests</string>
+			<key>productReference</key>
+			<string>B70F9E761D5663D30066738E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>B70F9E761D5663D30066738E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>mapzooUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B70F9E771D5663D30066738E</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>B70F9E4F1D5663D20066738E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>B70F9E561D5663D20066738E</string>
+			<key>remoteInfo</key>
+			<string>mapzoo</string>
+		</dict>
+		<key>B70F9E781D5663D30066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>B70F9E561D5663D20066738E</string>
+			<key>targetProxy</key>
+			<string>B70F9E771D5663D30066738E</string>
+		</dict>
+		<key>B70F9E791D5663D30066738E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B70F9E7A1D5663D30066738E</string>
+				<string>B70F9E7C1D5663D30066738E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>mapzooUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E7A1D5663D30066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>mapzooUITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E7B1D5663D30066738E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B70F9E7A1D5663D30066738E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B70F9E7C1D5663D30066738E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70F9E7D1D5663D30066738E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B70F9E7E1D5663D30066738E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>B70F9E7F1D5663D30066738E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B70F9E801D5663D30066738E</string>
+				<string>B70F9E811D5663D30066738E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B70F9E801D5663D30066738E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>FC05EDE38BACA2CE252FCDC1</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>mapzoo/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>camt.mapzoo</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B70F9E811D5663D30066738E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>647D9012E7CB4AF519812A78</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>mapzoo/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>camt.mapzoo</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>B70F9E821D5663D30066738E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B70F9E831D5663D30066738E</string>
+				<string>B70F9E841D5663D30066738E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B70F9E831D5663D30066738E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>AE6797A4BCC37C3A974DEB4B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>mapzooTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>camt.mapzooTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/mapzoo.app/mapzoo</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B70F9E841D5663D30066738E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>82BFB1CED215F2AECAF2148A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>mapzooTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>camt.mapzooTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/mapzoo.app/mapzoo</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>B70F9E851D5663D30066738E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B70F9E861D5663D30066738E</string>
+				<string>B70F9E871D5663D30066738E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B70F9E861D5663D30066738E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>190D8B7D4B763D0BA4E10BF4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>mapzooUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>camt.mapzooUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>mapzoo</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B70F9E871D5663D30066738E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E209536DDBF19ACBAA486ADC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>mapzooUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>camt.mapzooUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>mapzoo</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>BA530F68ACBA41F1321C63E2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-mapzoo/Pods-mapzoo-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>C478ADA68D51C5101779E385</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E5E62FC5E2E0B0E9E79D46E1</string>
+				<string>D7CBA9296CAB6CAC86052981</string>
+				<string>18926D67755F5EA396738B0A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C7D1EB291B5E8C20EBC79417</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>CD280B62DE8B6EFEF656D734</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>D7CBA9296CAB6CAC86052981</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-mapzooTests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>E209536DDBF19ACBAA486ADC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-mapzooUITests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-mapzooUITests/Pods-mapzooUITests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E58E6F345E95ABFB61C88784</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-mapzoo/Pods-mapzoo-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>E5E62FC5E2E0B0E9E79D46E1</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-mapzoo.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>F7E286E83D7B12A60E518B3F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D7CBA9296CAB6CAC86052981</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FC05EDE38BACA2CE252FCDC1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-mapzoo.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-mapzoo/Pods-mapzoo.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>B70F9E4F1D5663D20066738E</string>
+</dict>
+</plist>
